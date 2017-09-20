@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="centered"> 
+        
+      Applicable to: {% for comp in site.data.components %}
+       {% if page.component contains comp.name %} <a href="/features-{{comp.name}}"><i class="fa fa-check-square-o" aria-hidden="true"></i>{{comp.title}}</a>{%else%} <span class="text-muted"><i class="fa fa-square-o" aria-hidden="true"></i>{{comp.title}}</span> {%endif%} {% unless forloop.last %}|{% endunless %}
+      {% endfor %}
+      </div>  
+      {{ content }}
+
+      {% if page.social-share %}
+        {% include social-share.html %}
+      {% endif %}
+
+      {% if page.comments %}
+        <div class="disqus-comments">
+          {% include disqus.html %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
