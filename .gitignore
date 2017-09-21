@@ -9,3 +9,5 @@ _site
 Thumbs.db
 ehthumbs.db
 .jekyll-metadata
+/.vs
+/packages.config

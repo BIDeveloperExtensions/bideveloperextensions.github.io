@@ -9,4 +9,4 @@ All issues and feature requests can be found on the [GitHub Issues]({{ site.gith
 No GitHub
 {% endif %}
 
-> If you had an issue that was previously logged on the [old codeplex site](http://bidshelper.codeplex.com/isues) that you would like to keep alive please raise a new issue on GitHub.
+> If you had an issue that was previously logged on the [old codeplex site](http://bidshelper.codeplex.com/workitem/list/basic) that you would like to keep alive please raise a new issue on GitHub.

@@ -84,7 +84,7 @@ The export contains the following columns.
 
 The ClearCache XMLA statement will clear most SSAS caches. Unfortunately, it [does not evict fact partition index files from the FileStores cache](https://connect.microsoft.com/SQLServer/feedback/details/809200/have-clearcache-also-clear-the-filestores-cache). 
 
-The only reliable way to evict index files from the cache is to restart the SSAS instance. To reliably test query performance before and after disabling indexes, we suggest you restart SSAS, clear the [Windows system file cache](http://www.artisconsulting.com/blogs/greggalloway/Lists/Posts/Post.aspx?ID=19), then run your query workload. Here is the complete, step-by-step testing outline:
+The only reliable way to evict index files from the cache is to restart the SSAS instance. To reliably test query performance before and after disabling indexes, we suggest you restart SSAS, clear the [Windows system file cache](http://www.artisconsulting.com/blogs/greggalloway/2010/12/29/analysis-services-and-the-case-of-the-standby-cache), then run your query workload. Here is the complete, step-by-step testing outline:
 
 
 1. Capture the Query Subcube Verbose and queries run against your cube and save the Profiler data to a SQL table as described above.

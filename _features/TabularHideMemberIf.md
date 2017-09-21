@@ -10,7 +10,7 @@ SQL Server Data Tools 2012 (formerly BI Development Studio) Tabular projects all
 
 ![](Tabular HideMemberIf_HideMemberIfPivot.png)
 
-Warning: While the HideMemberIf setting works in Tabular models, it is not officially supported by Microsoft. If you encounter a bug in how Tabular handles HideMemberIf and open a support case, Microsoft may not provide support. For example, there are reports that Tabular HideMemberIf will cause Visual Studio to [workitem:hang](35428). There are other reports that [workitem:HideMemberIf doesn't work in PerformancePoint](33002) with Tabular models.
+Warning: While the HideMemberIf setting works in Tabular models, it is not officially supported by Microsoft. If you encounter a bug in how Tabular handles HideMemberIf and open a support case, Microsoft may not provide support. For example, there are reports that Tabular HideMemberIf will cause Visual Studio to [workitem:hang](http://bidshelper.codeplex.com/workitem/35428). There are other reports that [workitem:HideMemberIf doesn't work in PerformancePoint](http://bidshelper.codeplex.com/workitem/33002) with Tabular models.
 
 In order to set HideMemberIf, switch to the diagram view where you manage hierarchies. Highlight one or more levels then right click and choose Set HideMemberIf...
 
@@ -20,6 +20,6 @@ When the dialog pops up set HideMemberIf. When you click OK the change is applie
 
 ![](Tabular HideMemberIf_HideMemberIfDialog.png)
 
-Note that some changes like renaming levels will wipe out the HideMemberIf setting. *{{site.title}}* backs up the HideMemberIf setting in an annotation on the database. That way, the [Tabular Pre-Build](Tabular-Pre-Build) feature can prompt you to fix this setting.
+Note that some changes like renaming levels will wipe out the HideMemberIf setting. *{{site.title}}* backs up the HideMemberIf setting in an annotation on the database. That way, the [Tabular Pre-Build](../TabularPreBuild) feature can prompt you to fix this setting.
 
 After changing a HideMemberIf setting, *{{site.title}}* may prompt you for the credentials to a data source which is using stored credentials if you have not already entered those credentials during this SSDT editing session. This prompt ensures that Tabular HideMemberIf succeeds (since it needs to ProcessFull the table) and also that data source credentials in the workspace database do not get wiped out as HideMemberIf settings are applied.
