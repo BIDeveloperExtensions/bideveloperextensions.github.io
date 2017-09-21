@@ -36,6 +36,6 @@ Right-clicking on the file in Solution Explorer lets you launch the Smart Diff f
 ![](Smart Diff_SmartDiffOptions.png)
 
 **Other Source Control Systems**
-If you would like Smart Diff to support other source control systems, add a comment [here](http://bidshelper.codeplex.com/workitem/17265).
+If you would like Smart Diff to support other source control systems please create an issue [here](/issues) requesting that.
 
 If you use TortoiseSVN, see the [ORAYLIS BI.SmartDiff](http://bismartdiff.codeplex.com) CodePlex project for an alternative.
