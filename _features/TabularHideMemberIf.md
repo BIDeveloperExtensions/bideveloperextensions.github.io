@@ -4,7 +4,7 @@ category: ssas
 component: ssast
 ---
 
-_**Note:** this feature is NOT supported in the 1200 compatibility mode for SSSAS Tabular 2016 as Microsoft removed the undocumented hooks that we were using to expose this functionality_
+_**Note:** this feature is NOT supported in the 1200 compatibility mode for SSAS Tabular 2016 as Microsoft removed the undocumented hooks that we were using to expose this functionality. However, SSAS Tabular 2017 supports this feature [natively](https://blogs.msdn.microsoft.com/analysisservices/2016/12/16/whats-new-for-sql-server-vnext-on-windows-ctp-1-1-for-analysis-services/)._
 
 SQL Server Data Tools 2012 (formerly BI Development Studio) Tabular projects allow adding hierarchies to tables. However, a UI for setting the HideMemberIf property is not provided. This prevents Tabular projects from creating ragged hierarchies. For example, in the Adventure Works Employee hierarchy, Stephen Jiang not only is a manager, but has also sold some products. Without setting HideMemberIf, a blank shows up in the hierarchy (left PivotTable). After setting HideMemberIf on Level3 to NoName, the blank employee name row drops out as desired (right PivotTable):
 
