@@ -4,15 +4,11 @@ component: common
 ---
 To do an "xcopy deploy" you simply download the zip file for for your version of SQL Server (instead of the setup .exe) and unzip the  zip file to either:
 
-<My Documents>/Visual Studio 2005/Addins  _(for SQL Server 2005)_
-_or_
-<My Documents>/Visual Studio 2008/Addins  _(for SQL Server 2008 and SQL Server 2008 R2)_
-_or_
-<My Documents>/Visual Studio 2010/Addins  _(for SQL Server 2012 in Visual Studio 2010)_
-_or_
-<My Documents>/Visual Studio 2012/Addins  _(for SQL Server 2012 in Visual Studio 2012)_
-_or_
-<My Documents>/Visual Studio 2013/Addins  _(for SQL Server 2014 in Visual Studio 2013)_
+&lt;My Documents&gt;/Visual Studio 2005/Addins  _(for SQL Server 2005)_  
+&lt;My Documents&gt;/Visual Studio 2008/Addins  _(for SQL Server 2008 and SQL Server 2008 R2)_      
+&lt;My Documents&gt;/Visual Studio 2010/Addins  _(for SQL Server 2012 in Visual Studio 2010)_  
+&lt;My Documents&gt;/Visual Studio 2012/Addins  _(for SQL Server 2012 in Visual Studio 2012)_  
+&lt;My Documents&gt;/Visual Studio 2013/Addins  _(for SQL Server 2014 in Visual Studio 2013)_  
 
 If the Addins directory doesn't exist already, create it.
 
