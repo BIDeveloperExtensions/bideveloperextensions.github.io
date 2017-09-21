@@ -20,6 +20,6 @@ When the dialog pops up set HideMemberIf. When you click OK the change is applie
 
 ![](Tabular HideMemberIf_HideMemberIfDialog.png)
 
-Note that some changes like renaming levels will wipe out the HideMemberIf setting. *{{site.title}}* backs up the HideMemberIf setting in an annotation on the database. That way, the [Tabular Pre-Build](../TabularPreBuild) feature can prompt you to fix this setting.
+Note that some changes like renaming levels will wipe out the HideMemberIf setting. *{{site.title}}* backs up the HideMemberIf setting in an annotation on the database. That way, the [Tabular Pre-Build](../TabularPre-Build) feature can prompt you to fix this setting.
 
 After changing a HideMemberIf setting, *{{site.title}}* may prompt you for the credentials to a data source which is using stored credentials if you have not already entered those credentials during this SSDT editing session. This prompt ensures that Tabular HideMemberIf succeeds (since it needs to ProcessFull the table) and also that data source credentials in the workspace database do not get wiped out as HideMemberIf settings are applied.

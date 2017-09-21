@@ -7,7 +7,7 @@ Several *{{site.title}}* features can be configured via a Preferences screen. To
 
 ![](Preferences_Preferences.png)
 
-The [Smart Diff](../SmartDiff) setting is to allow you to use third-party command line programs like [Beyond Compare](http://www.scootersoftware.com) as the diff viewer in [Smart Diff](Smart-Diff)(Smart-Diff) instead of TFS or VSS.
+The [Smart Diff](../SmartDiff) setting is to allow you to use third-party command line programs like [Beyond Compare](http://www.scootersoftware.com) as the diff viewer in [Smart Diff](../SmartDiff) instead of TFS or VSS.
 
 To pass the 2 versions of a file to your diff tool after they have been processed by SmartDiff you need to insert a question marks (?) where the argument for the left and right files normally go.
 
