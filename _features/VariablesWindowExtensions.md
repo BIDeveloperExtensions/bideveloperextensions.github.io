@@ -26,7 +26,6 @@ You can also edit the expression on a variable using the [SSIS Expression Editor
 ![](Variables Window Extensions_VariablesWindowEditExpressionButton.png)
 
 ## Find Variable References
-### _Pre-Release_
 Select a variable in the variables window, and then click the _Find Variable References_ button to show the references dialog with all uses of the variable shown in a package explorer style dialog.
 
 ![](Variables Window Extensions_FindVariableReferences.png)
