@@ -20,7 +20,7 @@ If for some reason you cannot use the installer the latest release includes an [
 
 
 ## Documentation
-All of the features in *{{site.title}}* are documented under the [Features](/features) menu.
+All of the features in *{{site.title}}* are documented under the *Features* menu.
 
 {% assign sorted_features = site.features | sort:  'title'  %}
 

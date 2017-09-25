@@ -7,7 +7,7 @@ component: ssasm
 
 Detecting which aggregations are unused and deleting them is currently a very manual process in Analysis Services. The Delete Unused Aggregations feature of *{{site.title}}* automates this process. It uses a trace to capture the aggregation hits for a set of MDX queries; it then shows you a list of the aggregations which were not hit and offers to delete those aggregations.
 
-To launch this feature, first open [Aggregation Manager](../Aggregation-Manager). Then either click on the cube node or the Aggregation Designs folder under a measure group node:
+To launch this feature, first open [Aggregation Manager](../AggregationManager). Then either click on the cube node or the Aggregation Designs folder under a measure group node:
 
 ![](Delete Unused Aggregations_DeleteUnusedAggsMenuCube.png) ![](Delete Unused Aggregations_DeleteUnusedAggsMenuMG.png)
 

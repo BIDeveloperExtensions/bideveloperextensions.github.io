@@ -7,7 +7,7 @@ component:
     - ssast
     - ssrs
 ---
-_Note:_ You must have either [Microsoft Visual SourceSafe 2005](http://msdn2.microsoft.com/en-us/vstudio/aa718670.aspx) or Microsoft Visual Studio Team Explorer [2005](http://www.microsoft.com/en-us/download/details.aspx?id=7203)/[2008](http://www.microsoft.com/en-us/download/details.aspx?id=16338)/[2010](http://www.microsoft.com/en-us/download/details.aspx?id=329) (described [here](http://www.codeplex.com/CodePlex/Wiki/View.aspx?title=Obtaining%20the%20Team%20Explorer%20Client)) installed as *{{site.title}}* leverages the visual diff dialog from either of those tools. (Though at least one of those tools must be installed, your solution does not need to be bound to source control to utilize Smart Diff.) Visual Studio 2012 includes a built-in diff viewer, so *{{site.title}}* (starting with version 1.6.5) will leverage it.
+_Note:_ You must have either [Microsoft Visual SourceSafe 2005](http://msdn2.microsoft.com/en-us/vstudio/aa718670.aspx) or Microsoft Visual Studio Team Explorer [2005](http://www.microsoft.com/en-us/download/details.aspx?id=7203)/[2008](http://www.microsoft.com/en-us/download/details.aspx?id=16338)/[2010](https://blogs.msdn.microsoft.com/jasonba/2010/02/11/team-explorer-is-included-in-visual-studio-2010/) (described [here](http://www.codeplex.com/CodePlex/Wiki/View.aspx?title=Obtaining%20the%20Team%20Explorer%20Client)) installed as *{{site.title}}* leverages the visual diff dialog from either of those tools. (Though at least one of those tools must be installed, your solution does not need to be bound to source control to utilize Smart Diff.) Visual Studio 2012+ includes a built-in diff viewer, so *{{site.title}}* (starting with version 1.6.5) will leverage it.
 
 _Note:_  Starting in release 1.4.2.2, you can setup a custom command line diff viewer in the [Preferences](../Preferences) screen. Once setup, you do not need to have VSS or TFS installed to use Smart Diff.
 
@@ -36,6 +36,6 @@ Right-clicking on the file in Solution Explorer lets you launch the Smart Diff f
 ![](Smart Diff_SmartDiffOptions.png)
 
 **Other Source Control Systems**
-If you would like Smart Diff to support other source control systems, add a comment [here](http://bidshelper.codeplex.com/workitem/17265).
+If you would like Smart Diff to support other source control systems please create an issue [here](/issues) requesting that.
 
 If you use TortoiseSVN, see the [ORAYLIS BI.SmartDiff](http://bismartdiff.codeplex.com) CodePlex project for an alternative.

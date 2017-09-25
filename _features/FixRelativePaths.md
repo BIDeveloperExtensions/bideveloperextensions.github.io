@@ -6,7 +6,7 @@ component: ssis
 
 This feature is helpful in setting up packages to use relative paths in connection managers and in the path to dtsConfig files. It was mainly coded to workaround this [bug](https://connect.microsoft.com/SQLServer/feedback/ViewFeedback.aspx?FeedbackID=355433) in SQL2008, but it can also be helpful in SQL2005.
 
-For more information about using relative paths in SSIS, see this [blog post](http://www.artisconsulting.com/blogs/greggalloway/Lists/Posts/Post.aspx?ID=15).
+For more information about using relative paths in SSIS, see this [blog post](http://www.artisconsulting.com/blogs/greggalloway/2008/7/13/relative-paths-in-ssis).
 
 This feature adds a "Fix All Relative Paths" button to the Package Configurations dialog:
 
