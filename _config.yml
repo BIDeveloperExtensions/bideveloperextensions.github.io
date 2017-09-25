@@ -100,7 +100,7 @@ share-links-active:
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-106972624-1"
 
 # Google Tag Manager ID
 #gtm: ""
