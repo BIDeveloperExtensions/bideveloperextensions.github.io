@@ -3,7 +3,7 @@ title: Installing from the Visual Studio Gallery
 component: common
 ---
 
-*{{site.title}}* for SQL 2016 is installed in Visual Studio 2015 and this version of the add-in is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for SQL 2016 is installed in Visual Studio 2015 and this version of the add-in is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *BIDS Helper* (be patient as we are in the progress of renaming to *{{site.title}}*):
 
 ![](Installing from the Visual Studio Gallery_BIDSHelperVSGallery.png)
 
