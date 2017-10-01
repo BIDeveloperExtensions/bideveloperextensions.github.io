@@ -1,7 +1,7 @@
 ---
 title: Deploy MDX Script
 category: ssas
-component: ssas
+component: ssasm
 ---
 This feature allows you to right click on a cube in an Analysis Services solution and deploy just the calculation script.
 

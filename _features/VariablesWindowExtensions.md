@@ -1,6 +1,7 @@
 --- 
 title: SSIS Variables Window Extensions
 layout: feature
+category: ssis
 component: ssis
 ---
 # SSIS Variables Window Extensions

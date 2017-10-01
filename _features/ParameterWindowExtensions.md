@@ -1,6 +1,7 @@
 ---
 title: SSIS Parameter Window Extensions
 category: ssis
+component: ssis
 ---
 
 ![](Parameter Window Extensions_ParametersWindowButtons.png)

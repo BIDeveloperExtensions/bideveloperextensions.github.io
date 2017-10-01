@@ -1,6 +1,6 @@
 ---
 title: Design Warnings
-caegory: ssis
+category: ssis
 component: ssis
 ---
 The SSIS Design Warnings feature provides similiar functionality to the Design Warning feature in Analysis Services 2008. It compares the current package against a list of design guidelines, and adds warnings to the Error List in Visual Studio for any items that need to be investigated. A package can be scanned for design warnings by right-clicking on it in the Solution Explorer and choosing the Design Warnings Scanner option from the pop-up menu.

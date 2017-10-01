@@ -1,6 +1,7 @@
 ---
 title: Sort Project Files
 category: ssis
+component: ssis
 ---
 
 This feature adds a "Sort by name" menu option to the "SSIS Packages" folder of an SSIS project in Visual Studio:
