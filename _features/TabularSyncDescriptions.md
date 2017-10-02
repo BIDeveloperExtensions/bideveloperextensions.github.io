@@ -2,6 +2,10 @@
 title: Tabular Sync Descriptions
 category: ssas
 component: ssast
+compatibilitylevel:  
+    - 1103
+    - 1200
+    - 1400
 ---
 
 In a SQL Server relational database, you can add descriptions to tables and columns using extended properties. Commonly, the {"MS_Description"} extended property is used, but other extended properties can be used. If you have spent considerable time entering descriptions for relational tables and columns (for example, using the [Kimball Dimensional Modeling Spreadsheet](http://www.kimballgroup.com/html/booksMDWTtools.html)), *{{site.title}}* Tabular Sync Descriptions can help you import those descriptions to the table in your Tabular model in Analysis Services.

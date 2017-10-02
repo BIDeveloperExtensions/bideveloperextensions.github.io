@@ -4,8 +4,6 @@ category: ssas
 component: ssasm
 ---
 
-**Note: this feature is not part of the current stable release, it will be included in the next release.**
-
 This feature allows you to copy a role with all of the associated settings and permissions. This is implemented as a new menu item on the right click menu for a role.
 
 ![](Duplicate Role_image_2.png)

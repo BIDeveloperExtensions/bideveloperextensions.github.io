@@ -4,6 +4,10 @@ category: ssas
 component: 
     - ssasm
     - ssast
+compatibilitylevel:  
+    - 1103
+    - 1200
+    - 1400
 ---
 
 The main purposes of this Roles Report are the following goals:

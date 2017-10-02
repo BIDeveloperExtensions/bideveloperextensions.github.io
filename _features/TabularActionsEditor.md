@@ -2,6 +2,7 @@
 title: Tabular Actions Editor
 category: ssas
 component: ssast
+compatibilitylevel: 1103
 ---
 
 *Note: This feature is only available with models in the 1103 compatability mode*

@@ -2,6 +2,7 @@
 title: Tabular Display Folders
 category: ssas
 component: ssast
+compatibilitylevel: 1103
 ---
 *Note: this feature is only enabled for models in the 1103 compatability mode. For models in 1200 or later you should use the native functionality in SSDT*
 

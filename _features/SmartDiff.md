@@ -6,6 +6,7 @@ component:
     - ssasm
     - ssast
     - ssrs
+compatibilitylevel: 1103
 ---
 _Note:_ You must have either [Microsoft Visual SourceSafe 2005](http://msdn2.microsoft.com/en-us/vstudio/aa718670.aspx) or Microsoft Visual Studio Team Explorer [2005](http://www.microsoft.com/en-us/download/details.aspx?id=7203)/[2008](http://www.microsoft.com/en-us/download/details.aspx?id=16338)/[2010](https://blogs.msdn.microsoft.com/jasonba/2010/02/11/team-explorer-is-included-in-visual-studio-2010/) (described [here](http://www.codeplex.com/CodePlex/Wiki/View.aspx?title=Obtaining%20the%20Team%20Explorer%20Client)) installed as *{{site.title}}* leverages the visual diff dialog from either of those tools. (Though at least one of those tools must be installed, your solution does not need to be bound to source control to utilize Smart Diff.) Visual Studio 2012+ includes a built-in diff viewer, so *{{site.title}}* (starting with version 1.6.5) will leverage it.
 

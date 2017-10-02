@@ -2,6 +2,7 @@
 title: Tabular Pre-Build
 category: ssas
 component: ssast
+compatibilitylevel: 1103
 ---
 
 The SQL Server Data Tools 2012 editor will often destroy changes to Tabular models. For example, adding a new perspective may remove actions from perspectives. And renaming a level may lose the HideMemberIf setting set by *{{site.title}}*.

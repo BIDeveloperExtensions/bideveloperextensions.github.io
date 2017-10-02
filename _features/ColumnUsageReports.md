@@ -4,6 +4,10 @@ category: ssas
 component: 
     - ssasm
     - ssast
+compatibilitylevel:  
+    - 1103
+    - 1200
+    - 1400
 ---
 
 Right-clicking on the DSV of an Analysis Services Multidimensional project lets you open two reports about column usage:

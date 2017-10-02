@@ -2,6 +2,7 @@
 title: Tabular Translations Editor
 category: ssas
 component: ssast
+compatibilitylevel: 1103
 ---
 
 Unlike Multidimensional projects, Tabular projects in SQL 2012 do not support translations. This feature gap makes Tabular models less user-friendly when the users are international since the field list in Excel PivotTables and Power View is not in their native language.

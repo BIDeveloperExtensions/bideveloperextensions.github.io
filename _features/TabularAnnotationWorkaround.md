@@ -2,6 +2,7 @@
 title: Tabular Annotation Workaround
 category: ssas
 component: ssast
+compatibilitylevel: 1103
 ---
 
 After upgrading to SQL Server 2012 SP1 SSDT, some users have complained about receiving an error that prevents them from opening the .bim file in a Tabular model:

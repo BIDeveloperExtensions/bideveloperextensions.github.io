@@ -13,6 +13,21 @@ layout: base
        {% if page.component contains comp.name %} <a href="/features-{{comp.name}}"><i class="fa fa-check-square-o" aria-hidden="true"></i>{{comp.title}}</a>{%else%} <span class="text-muted"><i class="fa fa-square-o" aria-hidden="true"></i>{{comp.title}}</span> {%endif%} {% unless forloop.last %}|{% endunless %}
       {% endfor %}
       </div>  
+
+      {% if page.component contains "ssast" %}
+         <div class="centered">
+         Applicable to Tabular Compatibility Level:
+         {% for lvl in site.data.compatibilitylevels %}
+             {% if page.compatibilitylevel contains lvl.name %}
+             <i class="fa fa-check-square-o" aria-hidden="true"></i>{{lvl.title}}
+             {%else%}
+             <span class="text-muted"><i class="fa fa-square-o" aria-hidden="true"></i>{{lvl.title}}</span>
+             {%endif%} 
+             {% unless forloop.last %}|{% endunless %}
+         {% endfor %}
+         </div>
+      {%endif%}
+
       {{ content }}
 
       {% if page.social-share %}

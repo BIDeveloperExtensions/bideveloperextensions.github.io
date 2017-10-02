@@ -2,6 +2,7 @@
 title: Tabular HideMemberIf
 category: ssas
 component: ssast
+compatibilitylevel: 1103
 ---
 
 _**Note:** this feature is NOT supported in the 1200 compatibility mode for SSAS Tabular 2016 as Microsoft removed the undocumented hooks that we were using to expose this functionality. However, SSAS Tabular 2017 supports this feature [natively](https://blogs.msdn.microsoft.com/analysisservices/2016/12/16/whats-new-for-sql-server-vnext-on-windows-ctp-1-1-for-analysis-services/)._
