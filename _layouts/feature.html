@@ -18,7 +18,7 @@ layout: base
          <div class="centered">
          <br />Applicable to Tabular Compatibility Level:<br/>
          {% for lvl in site.data.compatibilitylevels %}
-             {% if page.compatibilitylevel contains lvl.name %}
+             {% if page.compatibilitylevel contains lvl.name or page.compatibilitylevel == lvl.name %}
              <i class="fa fa-check-square-o" aria-hidden="true"></i>{{lvl.title}}
              {%else%}
              <span class="text-muted"><i class="fa fa-square-o" aria-hidden="true"></i>{{lvl.title}}</span>
