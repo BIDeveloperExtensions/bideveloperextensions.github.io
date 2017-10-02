@@ -1,5 +1,3 @@
-- name: "common"
-  title: "Common"
 - name: "ssasm"
   title: "SSAS Multidimensional"
 - name: "ssast"
@@ -8,3 +6,5 @@
   title: "SSRS"
 - name: "ssis"
   title: "SSIS"
+- name: "common"
+  title: "Common"
