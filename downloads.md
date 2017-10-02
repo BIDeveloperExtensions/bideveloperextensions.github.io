@@ -3,12 +3,20 @@ title: Downloads
 layout: page
 ---
 
-For Visual Studio 2015 or later BI Developer Extensions can be installed from the Tools / Extensions and Updates menu.
+**Visual Studio 2015**
 
-{% for release in  site.github.releases %} 
-- [{{ release.name }}]({{ release.assets[0].browser_download_url }})
-   Downloads: {{ release.assets[0].download_count | intcomma }} | Size: {{ release.assets[0].size | filesize }} | Date: {{ release.assets[0].created_at | date_to_string}}
-   
-{% endfor %}
+*{{site.title}}* for Visual Studio 2015 and SQL 2016 is installed from the [Visual Studio Gallery](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *BIDS Helper* (be patient as we are in the progress of renaming to *{{site.title}}*):
+
+![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery.png)
+
+**Visual Studio 2017**
+
+{{site.title}} for Visual Studio 2017 is currently in beta. See instructions [here](/features/InstallingfromtheVisualStudioGallery/) to get a copy.
+
+**Older Versions**
+
+For SQL 2005 (Visual Studio 2005), SQL 2008 (Visual Studio 2008), SQL 2008 R2 (Visual Studio 2008), download [release 1.7.0](https://github.com/BIDeveloperExtensions/bideveloperextensions/releases).
+
+For SQL 2012 (Visual Studio 2010 and Visual Studio 2012) and SQL 2014 (Visual Studio 2013), though [release 1.7.0](https://github.com/BIDeveloperExtensions/bideveloperextensions/releases) works, we recommend moving development to Visual Studio 2015 which is backwards compatible with SQL 2012 and SQL 2014. For Visual Studio 2015, install {{site.title}} from the Visual Studio gallery using the instructions above.
 
 > Prior versions can be found on the old codeplex site at [http://bidshelper.codeplex.com](http://bidshelper.codeplex.com)
