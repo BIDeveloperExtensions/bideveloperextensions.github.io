@@ -1,7 +1,13 @@
 ---
 title: Printer Friendly Dimension Usage
 category: ssas
-component: ssasm
+component: 
+    - ssasm
+    - ssast
+compatibilitylevel:  
+    - 1103
+    - 1200
+    - 1400
 ---
 
 The Dimension Usage tab allows you to define the relationships between dimensions and measure groups. The Printer Friendly Dimension Usage feature allows you to view and print a report encompassing all the information from that Dimension Usage tab. To use this feature, right click on the cube in Solution Explorer:
