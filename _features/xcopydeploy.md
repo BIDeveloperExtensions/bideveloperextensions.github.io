@@ -2,8 +2,6 @@
 title: X-copy Deployment
 component: common
 ---
-**XCopy Deploy**
-
 For Visual Studio 2015 and above, xcopy deploy is not available. Instead install from the [Visual Studio Gallery](../InstallingfromtheVisualStudioGallery/). For older versions of Visual Studio, read on for xcopy deploy instructions.
 
 To do an "xcopy deploy" you simply download the zip file for for your version of SQL Server (instead of the setup .exe) and unzip the  zip file to either:
