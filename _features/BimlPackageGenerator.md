@@ -40,4 +40,4 @@ If the Biml file was expanded successfully, it will be added to the SSIS Package
 
 ![](Biml Package Generator_BimlPackageGenerator5.png)
 
-The Biml Package Generator is a plugin that leverages the Biml compiler from [Varigence](http://www.varigence.com). For more information on exactly what the free version of Biml in *{{site.title}}* supports, see the [Biml FAQ](Biml-FAQ).
+The Biml Package Generator is a plugin that leverages the Biml compiler from [Varigence](http://www.varigence.com). For more information on exactly what the free version of Biml in *{{site.title}}* supports, see the [Biml FAQ](/features/BimlFAQ/).
