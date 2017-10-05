@@ -30,4 +30,4 @@ As discussed in the [Tabular Performance Guide](http://aka.ms/ASTabPerf2012), wh
 
 Limitation: Note that only the query defined in the Edit Table Properties dialog is checked for unused columns. The partition queries are not parsed looking for unused columns.
 
-The Used Columns Report is not shown for Tabular models. Due to the straightforward mapping of columns in the SQL queries to columns in the tables in your Tabular model, it is not needed. Utilize the Edit Table Properties dialog to see a mapping of the columns in the SQL query to the column names in the model if needed.
+In release 2.0.2 and above, the Used Columns Report is shown for Tabular models. This simple report lists the source system table and columns from the Edit Table Properties dialog which are used to build your model and shows how they map to the model table and column. 
