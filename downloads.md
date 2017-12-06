@@ -5,13 +5,15 @@ layout: page
 
 **Visual Studio 2015**
 
-*{{site.title}}* for Visual Studio 2015 and SQL 2016 is installed from the [Visual Studio Gallery](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *BIDS Helper* (be patient as we are in the progress of renaming to *{{site.title}}*):
+*{{site.title}}* for Visual Studio 2015 is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery.png)
 
 **Visual Studio 2017**
 
-{{site.title}} for Visual Studio 2017 is currently in beta. See instructions [here](/features/InstallingfromtheVisualStudioGallery/) to get a copy.
+*{{site.title}}* for Visual Studio 2017 is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+
+![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery2017.png)
 
 **Older Versions**
 
