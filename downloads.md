@@ -5,13 +5,13 @@ layout: page
 
 **Visual Studio 2015**
 
-*{{site.title}}* for Visual Studio 2015 is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for Visual Studio 2015 is published in the [Visual Studio Gallery](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery.png)
 
 **Visual Studio 2017**
 
-*{{site.title}}* for Visual Studio 2017 is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for Visual Studio 2017 is published in the [Visual Studio Gallery](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery2017.png)
 
