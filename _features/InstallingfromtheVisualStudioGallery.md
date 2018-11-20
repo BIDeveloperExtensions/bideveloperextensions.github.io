@@ -14,7 +14,7 @@ You can also download it from the Visual Studio Gallery in a web browser [here](
 
 **Visual Studio 2017**
 
-*{{site.title}}* for Visual Studio 2012 is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for Visual Studio 2017 is published in the Visual Studio Gallery. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
 
 ![](Installing from the Visual Studio Gallery_BIDSHelperVSGallery2017.png)
 
