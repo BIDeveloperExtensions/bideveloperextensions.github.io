@@ -15,6 +15,8 @@ layout: page
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery2017.png)
 
+Ensure you have the latest version of [SSDT installed](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017) (version 15.9.0 or higher) for Visual Studio 2017. Then in Visual Studio 2017 go to Tools... Extensions and Updates... Updates tab... then ensure you install any updates to Microsoft Analysis Services Projects, Microsoft Reporting Services Projects, or Microsoft Integration Services Projects. This release is designed to work with version 2.8.11 SSAS extension or higher, version 2.5.6 SSRS extension or higher, and 2.1 SSIS extension or higher.
+
 **Older Versions**
 
 For SQL 2005 (Visual Studio 2005), SQL 2008 (Visual Studio 2008), SQL 2008 R2 (Visual Studio 2008), download [release 1.7.0](https://github.com/BIDeveloperExtensions/bideveloperextensions/releases/tag/v1.7.0).
