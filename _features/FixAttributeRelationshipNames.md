@@ -8,7 +8,7 @@ In Analysis Services Multidimensional, attribute relationships typically bear th
 
 ![](AttributeRelationshipNameWarning.png)
 
-Fixing these mismatches can be tedious. Starting with release 2.2.1, BI Developer Extensions has a Fix Attribute Relationship Names feature. Right-click on the dimension in Solution Explorer to launch this feature:
+Fixing these mismatches can be tedious. Starting with release 2.1.1, BI Developer Extensions has a Fix Attribute Relationship Names feature. Right-click on the dimension in Solution Explorer to launch this feature:
 
 ![](FixAttributeRelationshipNames.png)
 
