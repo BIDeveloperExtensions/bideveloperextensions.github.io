@@ -46,4 +46,4 @@ The next pages of the report group by object. For each property, you see the def
 Exporting the report to Excel correctly renders the table of contents. You can download a [sample export](Non-Default Properties Report_NonDefaultPropertiesSSIS.xls) of this report against a demonstration package.
 
 
-If there are any properties which are not showing up on this report which you feel should be showing up, please post an issue on the [Issue Tracker]({{site.github.issues_url}}) tab.
+If there are any properties which are not showing up on this report which you feel should be showing up, please post an issue on the [Issue Tracker](https://github.com/BIDeveloperExtensions/bideveloperextensions/issues) tab.
