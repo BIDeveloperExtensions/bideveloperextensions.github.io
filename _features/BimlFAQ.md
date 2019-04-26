@@ -3,6 +3,11 @@ title: "BIML: FAQ"
 component: ssis
 ---
 
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
+
 **Q: Why would I want to use Biml?**
 
 **A:** Creating many similar Integration Services packages is a common task in ETL. Manually creating SSIS packages can consume a significant amount of time. And after you are done, if you decided you need to tweak your "template" to add in a new logging step or correct a bug, you will have to manually edit all the SSIS packages to manually add that change. A simple Biml script, on the other hand, can generate your SSIS packages for you and allow you to regenerate all your SSIS packages if you need to make a small change at a later date. For example, see [this example](Copy Data Dynamically with BimlScript) as an example of how a simple SQL metadata query and a loop can generate many SSIS packages dynamically.

@@ -3,6 +3,11 @@ title: BIML Package Generator
 component: ssis
 ---
 
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
 The Biml Package Generator provides the ability to create packages from [Business Intelligence Markup Language (Biml)](http://www.varigence.com/Documentation/Language/Index). Biml is an XML-based language that allows you to describe your BI solution in a declarative fashion, similarly to using HTML to describe how a web page should appear. In addition, you can embed BimlScript (C# or VB.NET code) into Biml, in the same way that ASP.NET works with HTML. This allows for large numbers of packages to be created with a minimal amount of code.
 
 For examples of using Biml, please see the [samples and tutorials ](-Samples-and-Tutorials) page.

@@ -3,6 +3,11 @@ title: "BIML: Creating a basic package"
 component: ssis
 ---
 
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
 This article is going to walk through the process of creating a simple package using
 [Biml](http://www.varigence.com/Documentation/Language/Index) and the [Biml Package Generator feature](/features/BimlPackageGenerator) in *{{site.title}}*. To start out, you need to install the [latest version](/downloads) of *{{site.title}}*. Once that is set up, you should create a new Integration Services project in BIDS. In the project, right-click on the Project in the Solution Explorer. There's a new item in this menu - Add New Biml File.
 

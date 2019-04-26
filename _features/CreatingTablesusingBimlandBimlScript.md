@@ -3,6 +3,12 @@ title: "BIML: Creating tables using BIML and BIMLScript"
 component: ssis
 ---
 
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
+
 *This post is [part 2 of a series](http://agilebi.com/jwelch/2011/05/13/biml-functionality-in-bids-helper/) on using [Biml](http://www.varigence.com/Documentation/Language/Index) in *{{site.title}}*. This post builds on some of the information and the sample from the previous posts.
 
 When I'm creating samples for SSIS, I often find it necessary to create supporting tables to go along with the package sample. One of the things I like about [Biml](http://www.varigence.com/Documentation/Language/Index) is that you can define both your tables and packages in the language. Here's an example of defining an OrderHeader and OrderDetail table in Biml:

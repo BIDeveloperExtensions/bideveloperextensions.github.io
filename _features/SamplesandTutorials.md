@@ -2,6 +2,12 @@
 title: "BIML: Samples and Tutorials"
 component: ssis
 ---
+
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
 ## Tutorials on Biml and BimlScript
 * [Creating a Basic Package Using Biml](../CreatingaBasicPackageUsingBiml)
 * [Creating Tables using Biml and BimlScript](../CreatingTablesusingBimlandBimlScript)

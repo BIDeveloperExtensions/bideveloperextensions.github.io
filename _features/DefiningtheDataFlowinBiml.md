@@ -2,6 +2,12 @@
 title: "BIML: Defining the Data Flow"
 component: ssis
 ---
+
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
 *This post is [part 5 of a series](http://agilebi.com/jwelch/2011/05/13/biml-functionality-in-bids-helper/) on using [Biml](http://www.varigence.com/documentation/biml/) in
 {{site.title}}. This post builds on some of the information and the sample from the previous posts.*
 

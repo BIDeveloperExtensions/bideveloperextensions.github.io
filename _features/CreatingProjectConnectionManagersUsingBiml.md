@@ -3,6 +3,11 @@ title: "BIML: Creating Project Connection Managers"
 component: ssis
 ---
 
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
 This article is going to walk through the process of creating an SSIS 2012 package which uses a project connection manager using
 <a href="http://www.varigence.com/documentation/biml/">Biml</a> and the [Biml Package Generator feature](/features/BimlPackageGenerator) in *{{site.title}}*.
 

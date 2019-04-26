@@ -3,6 +3,11 @@ title: "BIML: Manually Configuring BIML Package Generator"
 component: ssis
 ---
 
+
+**Note: Varigence has stopped providing Biml for BI Developer Extensions so these features are deprecated. Instead install [BimlExpress](https://www.varigence.com/BimlExpress).**
+
+--------------------
+
 If you are doing an xcopy deployment of *{{site.title}}*, or experience any issues with the Biml Package Generator, please review the items on this page to make sure your environment is configured for the best experience. None of these are required to use the Biml Package Generator, but they make it more enjoyable.
 
 The simplest option is to make sure that `Biml.xsd` has been copied to the Visual Studio registered schemas folder. This will enable Intellisense when working with Biml files in {{site.ms-designer}}. The following tables shows the location of schemas folder for each version of Visual Studio.
