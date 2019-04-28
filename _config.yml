@@ -19,6 +19,7 @@ collections:
 
 # Name of website
 title: BI Developer Extensions
+ms-designer: SSDT
 
 # Short description of your site
 description: A Visual Studio add-in that enhances development functionality in Business Intelligence Development Studio (BIDS) and SQL Server Data Tools (SSDTBI).

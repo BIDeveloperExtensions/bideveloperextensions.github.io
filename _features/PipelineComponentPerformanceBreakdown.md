@@ -4,7 +4,7 @@ category: ssis
 component: ssis
 ---
 
-In SSIS2005, it is very difficult to determine which piece of a data flow task is the bottleneck. There are recommended instructions for [measuring performance](http://www.microsoft.com/technet/prodtechnol/sql/2005/ssisperf.mspx#EYKAC) of the components in the data flow, but this methodology can be very tedious to step through manually. *{{site.title}}*'s Pipeline Component Performance Breakdown feature automates this methodology for you and lets you trend component performance as you try different settings and design alternatives.
+In SSIS2005, it is very difficult to determine which piece of a data flow task is the bottleneck. There are recommended instructions for [measuring performance](https://web.archive.org/web/20071104010845/http://www.microsoft.com/technet/prodtechnol/sql/2005/ssisperf.mspx#EYKAC) of the components in the data flow, but this methodology can be very tedious to step through manually. *{{site.title}}*'s Pipeline Component Performance Breakdown feature automates this methodology for you and lets you trend component performance as you try different settings and design alternatives.
 
 (In SSIS2008, look at the built-in PipelineComponentTime event.)
 

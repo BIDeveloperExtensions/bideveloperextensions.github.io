@@ -13,4 +13,4 @@ You can also deploy the MDX script by clicking the button in the toolbar above t
 
 Note: This feature is not available when editing a cube in online mode as there is no need to deploy when you are working in online mode.
 
-_Note: To capture the XMLA *{{site.title}}* uses to deploy the MDX Script (so that you could deploy to a different environment without {{site.ms-designer}}) see this [blog post](http://blog.davyknuysen.be/2010/05/05/xmla-script-to-deploy-mdx-calculations/)._
+_Note: To capture the XMLA *{{site.title}}* uses to deploy the MDX Script (so that you could deploy to a different environment without {{site.ms-designer}}) see this [blog post](https://web.archive.org/web/20150602045947/http://blog.davyknuysen.be/2010/05/05/xmla-script-to-deploy-mdx-calculations/)._
