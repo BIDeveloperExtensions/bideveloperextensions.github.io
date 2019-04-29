@@ -40,6 +40,10 @@ For SQL 2005 (Visual Studio 2005), SQL 2008 (Visual Studio 2008), SQL 2008 R2 (V
 
 For SQL 2012 (Visual Studio 2010 and Visual Studio 2012) and SQL 2014 (Visual Studio 2013), though [release 1.7.0](https://github.com/BIDeveloperExtensions/bideveloperextensions/releases/tag/v1.7.0) works, we recommend moving development to Visual Studio 2017 which is backwards compatible with SQL 2012 and SQL 2014. For Visual Studio 2017, install {{site.title}} from the Visual Studio gallery using the instructions above.
 
+To install *{{site.title}}* in Visual Studio 2005-2013, download the installer mentioned above. For silent installs you can run the setup .exe file with a /S command line option.
+
+If for some reason you cannot use the installer the latest release includes an [xcopy deploy](/features/xcopydeploy) option.
+
 
 **Versions Summary**
 

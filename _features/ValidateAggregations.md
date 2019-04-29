@@ -23,6 +23,4 @@ Currently, the following rules and best practices are checked:
 1. No aggregation can include an attribute below granularity.
 1. For any dimension with a parent-child attribute which has a DefaultMember or is not aggregatable, the key attribute of that dimension should probably be included in every aggregation.
 
-Any questions or comments on these rules and best practices can be discussed in [this thread](http://bidshelper.codeplex.com/discussions/16498)
-
 You can download a sample report generated against the Project REAL cube: [ValidateAggsSample.pdf](Validate Aggregations_ValidateAggsSample.pdf)

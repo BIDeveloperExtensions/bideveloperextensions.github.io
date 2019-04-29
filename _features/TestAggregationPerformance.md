@@ -62,5 +62,5 @@ In page 2, notice the report says "Delete: Interactive ALL-ALL-ALL Store Invento
 
 **Note:**
 * Even though no permanent changes to the cube are made (because everything is done in a transaction and then rolled back), it is still not recommended you run this feature on your production server since *{{site.title}}* will clear the cache before every MDX query it tests.
-* Starting with *{{site.title}}* 1.6.3, Test Aggregation Performance will clear the file system cache if [ASSP](http://asstoredprocedures.codeplex.com/wikipage?title=FileSystemCache) version 1.3.5 or later is installed on the SSAS server.
+* Starting with *{{site.title}}* 1.6.3, Test Aggregation Performance will clear the file system cache if [ASSP](https://asstoredprocedures.github.io/functions/FileSystemCache/) version 1.3.5 or later is installed on the SSAS server.
 * If you choose to delete aggregations, be sure to retest your actual query workload under single user and multi-user scenarios to ensure the changes have not significantly impacted query response time or scalability. The MDX query used to test each aggregation is a generated MDX query that may not be representative of real user query patterns.
