@@ -11,7 +11,7 @@ SQL Server Data Tools 2012 (formerly BI Development Studio) Tabular projects all
 
 ![](Tabular HideMemberIf_HideMemberIfPivot.png)
 
-Warning: While the HideMemberIf setting works in Tabular models, it is not officially supported by Microsoft. If you encounter a bug in how Tabular handles HideMemberIf and open a support case, Microsoft may not provide support. For example, there are reports that Tabular HideMemberIf will cause Visual Studio to [workitem:hang](http://bidshelper.codeplex.com/workitem/35428). There are other reports that [workitem:HideMemberIf doesn't work in PerformancePoint](http://bidshelper.codeplex.com/workitem/33002) with Tabular models.
+Warning: While the HideMemberIf setting works in Tabular models, it is not officially supported by Microsoft. If you encounter a bug in how Tabular handles HideMemberIf and open a support case, Microsoft may not provide support. For example, there are reports that Tabular HideMemberIf will cause Visual Studio to hang. There are other reports that HideMemberIf doesn't work in PerformancePoint with Tabular models. We recommend you upgrade to 1200 compatibility level and use the officially supported feature.
 
 In order to set HideMemberIf, switch to the diagram view where you manage hierarchies. Highlight one or more levels then right click and choose Set HideMemberIf...
 

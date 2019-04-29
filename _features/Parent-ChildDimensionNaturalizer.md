@@ -34,4 +34,4 @@ Please see the [Parent-Child Dimension Naturalizer project](http://www.codeplex.
 
 #### Limitations
 
-* Currently [secondary data](http://bidshelper.codeplex.com/workitem/33081) sources are not supported. Secondary data sources occur when the primary data source for the DSV is one data source, but the DSV table in question comes from a second data source.
+* Currently secondary data sources are not supported. Secondary data sources occur when the primary data source for the DSV is one data source, but the DSV table in question comes from a second data source.

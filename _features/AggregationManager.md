@@ -4,9 +4,9 @@ category: ssas
 component: ssasm
 ---
 
-Microsoft provides an [Aggregation Manager](http://www.codeplex.com/MSFTASProdSamples/Wiki/View.aspx?title=SS2005%21Readme%20for%20Aggregation%20Manager%20Sample&referringTitle=Home) sample application which gives an advanced interface for manually editing aggregations. We have taken this sample code and integrated it into *{{site.title}}*. This way, it can be run from Visual Studio when you're designing your cube, and aggregations you edit will be saved into your source code for the cube. (If you prefer, you can run the *{{site.title}}* version of Aggregation Manager live against a deployed cube if you open it through File... Open... Analysis Services Database.)
+Microsoft provided an [Aggregation Manager](http://www.codeplex.com/MSFTASProdSamples/Wiki/View.aspx?title=SS2005%21Readme%20for%20Aggregation%20Manager%20Sample&referringTitle=Home) sample application which gives an advanced interface for manually editing aggregations. We have taken this sample code and integrated it into *{{site.title}}*. This way, it can be run from Visual Studio when you're designing your cube, and aggregations you edit will be saved into your source code for the cube. (If you prefer, you can run the *{{site.title}}* version of Aggregation Manager live against a deployed cube if you open it through File... Open... Analysis Services Database.)
 
-A number of bug fixes and enhancements were coded. Look at the [complete list](http://www.codeplex.com/MSFTASProdSamples/WorkItem/View.aspx?WorkItemId=268) if you're interested. It also contains a few completely new features: [Delete Unused Aggregations](../DeleteUnusedAggregations), [Validate Aggregations](../ValidateAggregations), [Printer Friendly Aggregations](../PrinterFriendlyAggregations), and [Similar Aggregations](../SimilarAggregations).
+A number of bug fixes and enhancements were coded along with adding a few completely new features: [Delete Unused Aggregations](../DeleteUnusedAggregations), [Validate Aggregations](../ValidateAggregations), [Printer Friendly Aggregations](../PrinterFriendlyAggregations), and [Similar Aggregations](../SimilarAggregations).
 
 To use Aggregation Manager, right click on the cube in Solution Explorer:
 
