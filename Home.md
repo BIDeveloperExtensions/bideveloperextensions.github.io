@@ -1,4 +1,5 @@
-A Visual Studio add-in that enhances development functionality in Business Intelligence Development Studio (BIDS) and SQL Server Data Tools (SSDTBI).
+A Visual Studio extension that enhances development functionality in Business Intelligence Development Studio (BIDS) and SQL Server Data Tools (SSDTBI).
+
 ![](Home_BIDSHelperMontage.gif)
 
 ### Documentation

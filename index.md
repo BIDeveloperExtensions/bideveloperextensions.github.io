@@ -4,7 +4,7 @@ title: BI Developer Extensions
 subtitle: The ultimate toolkit for Microsoft BI Developers
 use-site-title: true
 ---
-A Visual Studio add-in that enhances development functionality in Business Intelligence Development Studio (BIDS) and SQL Server Data Tools (SSDTBI).
+A Visual Studio extension that enhances development functionality in Business Intelligence Development Studio (BIDS) and SQL Server Data Tools (SSDTBI).
 
 _This project was previously called BIDS Helper (see [Project History](projecthistory))_
 
@@ -12,7 +12,7 @@ _This project was previously called BIDS Helper (see [Project History](projecthi
 
 ## Installation
 
-Starting with *{{site.title}}* for SQL 2016 which is installed in Visual Studio 2015, install it from the [Visual Studio Gallery](/features/InstallingfromtheVisualStudioGallery).
+Starting with Visual Studio 2015, {{site.title}} is installed from the [Visual Studio Gallery](/features/InstallingfromtheVisualStudioGallery).
 
 To install *{{site.title}}* in earlier versions of Visual Studio, download the installer from the [downloads](/downloads) page. For silent installs you can run the setup .exe file with a /S command line option.
 

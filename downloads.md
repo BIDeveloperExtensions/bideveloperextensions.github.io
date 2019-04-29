@@ -26,7 +26,7 @@ For SQL 2012 (Visual Studio 2010 and Visual Studio 2012) and SQL 2014 (Visual St
 
 **Versions Summary**
 
-| Visual Studio Version | SQL Versions | SSDT Version | SSAS Extension Versions  | SSIS Extension Versions  | SSRS Extension Versions  | BI Developer Extension Version |
+| Visual Studio Version | SQL Versions | SSDT Version | SSAS Extension Versions  | SSIS Extension Versions  | SSRS Extension Versions  | BI Developer Extensions Version |
 |---|---|---|---|---|---|
 | 2019  | |  |  |  |  | Coming Soon |
 | 2017  | 2012-2019 | [15.9.0](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017#ssdt-for-vs-2017-standalone-installer) | 2.8.11 - [2.8.14](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftAnalysisServicesModelingProjects)<br/>(or higher)  | 2.1 - 2.2  | 2.5.6 - [2.5.7](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio)  | [2.3.1](https://marketplace.visualstudio.com/items?itemName=BIDSHelper.BIDeveloperExtensionsVS2017) |
