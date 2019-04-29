@@ -1,11 +1,12 @@
 ---
 title: Downloads
 layout: page
+redirect_from: "/features/InstallingfromtheVisualStudioGallery/"
 ---
 
 **Visual Studio 2015**
 
-*{{site.title}}* for Visual Studio 2015 is published in the [Visual Studio Marketplace](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for Visual Studio 2015 is published in the Visual Studio Marketplace. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery.png)
 
@@ -14,7 +15,7 @@ You can also download it from the Visual Studio Marketplace in a web browser [he
 
 **Visual Studio 2017**
 
-*{{site.title}}* for Visual Studio 2017 is published in the [Visual Studio Marketplace](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for Visual Studio 2017 is published in the Visual Studio Marketplace. To install it, go to Tools... Extensions and Updates... go to the Online tab and then search for *{{site.title}}*:
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery2017.png)
 
@@ -26,7 +27,7 @@ Ensure you have the latest version of [SSDT installed](https://docs.microsoft.co
 
 **Visual Studio 2019**
 
-*{{site.title}}* for Visual Studio 2019 is published in the [Visual Studio Marketplace](/features/InstallingfromtheVisualStudioGallery/). To install it, go to Extensions... Manage Extensions... go to the Online tab and then search for *{{site.title}}*:
+*{{site.title}}* for Visual Studio 2019 is published in the Visual Studio Marketplace. To install it, go to Extensions... Manage Extensions... go to the Online tab and then search for *{{site.title}}*:
 
 ![](/features/InstallingfromtheVisualStudioGallery/Installing from the Visual Studio Gallery_BIDSHelperVSGallery2019.png)
 
