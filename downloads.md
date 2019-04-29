@@ -1,9 +1,6 @@
 ---
 title: Downloads
 layout: page
-redirect_from:
-    - /features/InstallingfromtheVisualStudioGallery/
-    - /features/InstallingfromtheVisualStudioGallery2/
 ---
 
 **Visual Studio 2015**
