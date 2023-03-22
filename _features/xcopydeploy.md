@@ -23,5 +23,3 @@ For SQL Server 2012 and SQL Server 2014, you must also unblock every file in the
 (If you don't unblock the DLLs, you will get the error message: "The Add-in 'BIDSHelper' failed to load or caused an exception. Error number: 80131515")
 
 After restarting Visual Studio, check Help... About Microsoft Visual Studio and make sure you see *{{site.title}}*. If you don't, you may need to go to Tools... Options... Add-in/Macro Security... then add the above path to the list, then restart Visual Studio. If you see *{{site.title}}* but it is not functioning, look at the [Tools... Options... *{{site.title}}*... Version](../Version) tab for more information about the problem.
-
-To fully configure the [Biml Package Generator](../Biml-Package-Generator) plugin as part of an xcopy deployment, please see [Manually Configuring Biml Package Generator](../Manually-Configuring-Biml-Package-Generator).
